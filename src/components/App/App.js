@@ -5,11 +5,16 @@ import SavedMovies from "../SavedMovies";
 import Profile from "../Profile";
 import Register from "../Register";
 import Login from "../Login";
+import Header from "../Header";
+import Navigation from "../Navigation";
+import Footer from "../Footer";
 import "./App.css";
 
 function App() {
   return (
     <>
+      <Header />
+      <Navigation />
       <Switch>
         <Route path='/'>
           <Main />
@@ -30,6 +35,7 @@ function App() {
           <Login />
         </Route>
       </Switch>
+      <Footer />
     </>
   );
 }
