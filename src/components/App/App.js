@@ -16,9 +16,9 @@ function App() {
       <Header />
       {/* <Navigation />
       <Switch>
-        <Route path='/'>
-          <Main />
-        </Route>
+        <Route path='/'> */}
+      <Main />
+      {/* </Route>
         <Route path='/movies'>
           <Movies />
         </Route>

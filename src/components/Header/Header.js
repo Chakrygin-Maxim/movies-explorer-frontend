@@ -5,7 +5,7 @@ import logo from "../../images/header-logo.svg";
 function Header(props) {
   return (
     <header className='header'>
-      <a href='*' className='header__link'>
+      <a href='/' className='header__link'>
         <img
           src={logo}
           alt='Основное лого сайта'
