@@ -1,0 +1,44 @@
+.header {
+  min-height: 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.header__logo {
+  width: 38px;
+  height: 38px;
+}
+
+.header__link {
+  text-decoration: none;
+  transition: opacity 0.15s ease-in;
+}
+
+.header__link:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.header__button-login {
+  background-color: #3ddc84;
+  min-width: 76px;
+  min-height: 32px;
+  border: 0;
+  border-radius: 3px;
+}
+
+.header__button-login {
+  margin-left: 30px;
+  padding: 8px 20px;
+}
+
+.header__text {
+  color: #fff;
+  line-height: 16px;
+  font-size: 12px;
+}
+.header__container {
+}

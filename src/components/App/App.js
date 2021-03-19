@@ -1,20 +1,20 @@
 import { Route, Switch } from "react-router-dom";
-import Main from "../Main";
-import Movies from "../Movies";
-import SavedMovies from "../SavedMovies";
-import Profile from "../Profile";
-import Register from "../Register";
-import Login from "../Login";
-import Header from "../Header";
-import Navigation from "../Navigation";
-import Footer from "../Footer";
+import Main from "../Main/Main";
+import Movies from "../Movies/Movies";
+import SavedMovies from "../SavedMovies/SavedMovies";
+import Profile from "../Profile/Profile";
+import Register from "../Register/Register";
+import Login from "../Login/Login";
+import Header from "../Header/Header";
+import Navigation from "../Navigation/Navigation";
+import Footer from "../Footer/Footer";
 import "./App.css";
 
 function App() {
   return (
     <>
       <Header />
-      <Navigation />
+      {/* <Navigation />
       <Switch>
         <Route path='/'>
           <Main />
@@ -35,7 +35,7 @@ function App() {
           <Login />
         </Route>
       </Switch>
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
