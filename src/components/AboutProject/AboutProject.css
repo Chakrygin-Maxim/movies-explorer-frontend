@@ -11,7 +11,6 @@
   line-height: 26.53px;
   margin: 0;
   position: relative;
-  max-width: 1140px;
 }
 
 .aboutProject__header::before {
@@ -56,6 +55,7 @@
   grid-row-gap: 14px;
   grid-template-columns: 228px 912px;
   justify-content: center;
+  padding-bottom: 110px;
 }
 
 .aboutProject__backend {
