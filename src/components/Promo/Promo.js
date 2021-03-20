@@ -1,5 +1,5 @@
 import "./Promo.css";
-import { Link } from "react-router-dom";
+import NavTab from "../NavTab/NavTab";
 
 function Promo(props) {
   return (
@@ -8,15 +8,7 @@ function Promo(props) {
         Учебный проект студента факультет Веб-разработки
       </h1>
       <div className='promo__container'>
-        <Link className='promo__link promo__link-text' to={"/"}>
-          О проекте
-        </Link>
-        <Link className='promo__link promo__link-text' to={"/"}>
-          Технологии
-        </Link>
-        <Link className='promo__link promo__link-text' to={"/"}>
-          Студент
-        </Link>
+        <NavTab />
       </div>
     </section>
   );

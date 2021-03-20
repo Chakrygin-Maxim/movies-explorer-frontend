@@ -1,0 +1,29 @@
+.navtab__link {
+  text-decoration: none;
+  transition: opacity 0.15s ease-in;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #303030;
+  display: inline-block;
+  border-radius: 30px;
+  min-height: 36px;
+  min-width: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navtab__link-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.navtab__link:last-of-type {
+  margin-right: 0;
+}
+
+.navtab__link:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
