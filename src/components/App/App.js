@@ -34,8 +34,8 @@ function App() {
         <Route path='/signin'>
           <Login />
         </Route>
-      </Switch>
-      <Footer /> */}
+      </Switch>*/}
+      <Footer />
     </>
   );
 }
