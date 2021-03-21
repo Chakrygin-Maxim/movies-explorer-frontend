@@ -1,4 +1,5 @@
 import "./AboutMe.css";
+import Portfolio from "../Portfolio/Portfolio";
 import avatar from "../../images/avatar.jpg";
 
 function AboutMe(props) {
@@ -53,6 +54,7 @@ function AboutMe(props) {
           ></img>
         </div>
       </div>
+      <Portfolio />
     </section>
   );
 }

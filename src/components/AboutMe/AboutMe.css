@@ -27,7 +27,7 @@
 .aboutMe__container {
   display: flex;
   justify-content: space-between;
-  margin-top: 94px;
+  margin: 94px 0 100px;
   max-width: 1140px;
 }
 
