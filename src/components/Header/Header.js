@@ -1,8 +1,10 @@
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../../images/header-logo.svg";
 
 function Header(props) {
+  const { pathname } = useLocation();
+
   return (
     <header className='header'>
       <a href='/' className='header__link'>
@@ -13,15 +15,31 @@ function Header(props) {
         ></img>
       </a>
       <div className='header__container'>
-        <Link className='header__link header__text' to={"/signup"}>
-          Регистрация
-        </Link>
-        <Link
-          className='header__button-login header__text header__link'
-          to={"/signin"}
-        >
-          Войти
-        </Link>
+        {pathname === "/" ? (
+          <>
+            <Link className='header__link header__text' to={"/signup"}>
+              Регистрация
+            </Link>
+            <Link
+              className='header__button-login header__link header__text'
+              to={"/signin"}
+            >
+              Войти
+            </Link>{" "}
+          </>
+        ) : (
+          <div />
+        )}
+        {pathname === "/movies" ? (
+          <Link
+            className='header__button-account header__link header__text'
+            to={"/profile"}
+          >
+            Аккаунт
+          </Link>
+        ) : (
+          <div />
+        )}
       </div>
     </header>
   );

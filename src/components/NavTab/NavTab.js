@@ -1,19 +1,40 @@
 import "./NavTab.css";
-import { Link } from "react-router-dom";
 
 function NavTab(props) {
+  const handleAnchorScroll = (anchor) => {
+    if (anchor) {
+      const anchorEle = document.getElementById(anchor);
+      anchorEle.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <>
-      <Link className='navtab__link navtab__link-text' to={"/"}>
+    <ul className='navTab'>
+      <li
+        onClick={() => {
+          handleAnchorScroll("aboutProject");
+        }}
+        className='navtab__link navtab__link-text'
+      >
         О проекте
-      </Link>
-      <Link className='navtab__link navtab__link-text' to={"/"}>
+      </li>
+      <li
+        onClick={() => {
+          handleAnchorScroll("techs");
+        }}
+        className='navtab__link navtab__link-text'
+      >
         Технологии
-      </Link>
-      <Link className='navtab__link navtab__link-text' to={"/"}>
+      </li>
+      <li
+        onClick={() => {
+          handleAnchorScroll("aboutMe");
+        }}
+        className='navtab__link navtab__link-text'
+      >
         Студент
-      </Link>
-    </>
+      </li>
+    </ul>
   );
 }
 

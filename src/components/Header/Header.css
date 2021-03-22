@@ -24,15 +24,18 @@
 
 .header__button-login {
   background-color: #3ddc84;
-  min-width: 76px;
-  min-height: 32px;
   border: 0;
   border-radius: 3px;
-}
-
-.header__button-login {
   margin-left: 30px;
   padding: 8px 20px;
+}
+
+.header__button-account {
+  background-color: #3ddc84;
+  padding: 8px 20px;
+  border: 0;
+  border-radius: 20px;
+  background-color: #313131;
 }
 
 .header__text {

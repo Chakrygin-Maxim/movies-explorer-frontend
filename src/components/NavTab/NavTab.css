@@ -1,3 +1,8 @@
+.navTab {
+  display: flex;
+  text-decoration: none;
+}
+
 .navtab__link {
   text-decoration: none;
   transition: opacity 0.15s ease-in;

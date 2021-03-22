@@ -4,7 +4,7 @@ import avatar from "../../images/avatar.jpg";
 
 function AboutMe(props) {
   return (
-    <section className='aboutMe'>
+    <section className='aboutMe' id='aboutMe'>
       <h2 className='aboutMe__header'>Студент</h2>
       <div className='aboutMe__container'>
         <div className='aboutMe__leftColumn'>
