@@ -1,0 +1,32 @@
+.notFound {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notFound__title {
+  margin: 0;
+  color: #fff;
+  font-weight: 400;
+  font-size: 140px;
+  line-height: 170px;
+}
+
+.notFound__subtitle {
+  margin: 5px 0 0;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.notFound__link {
+  margin: 184px 0 0;
+  color: #4285f4;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 17px;
+  text-decoration: none;
+}

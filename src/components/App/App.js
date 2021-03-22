@@ -1,3 +1,4 @@
+import "./App.css";
 import { Route, Switch } from "react-router-dom";
 import Header from "../Header/Header";
 import Main from "../Main/Main";
@@ -8,16 +9,24 @@ import Register from "../Register/Register";
 import Login from "../Login/Login";
 import Navigation from "../Navigation/Navigation";
 import Footer from "../Footer/Footer";
-import "./App.css";
+import NotFound from "../NotFound/NotFound";
 
 function App() {
   return (
     <>
       <Header />
+      <Switch>
+        <Route exact path='/'>
+          <Main />
+        </Route>
+        <Route path='*'>
+          <NotFound />
+        </Route>
+      </Switch>
       {/* <Navigation />
       <Switch>
         <Route path='/'> */}
-      <Main />
+
       {/* </Route>
         <Route path='/movies'>
           <Movies />
