@@ -1,0 +1,40 @@
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation__link {
+  color: #fff;
+  text-decoration: none;
+  transition: opacity 0.15s ease-in;
+}
+.navigation__link:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.navigation__movies {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.navigation__saved-movies {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.navigation__signup {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.navigation__item {
+  margin-right: 20px;
+}
+
+.navigation__item:last-of-type {
+  margin-right: 0;
+}
