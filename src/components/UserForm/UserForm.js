@@ -1,5 +1,6 @@
 import "./UserForm.css";
 import logo from "../../images/header-logo.svg";
+import { Link } from "react-router-dom";
 
 function UserForm(props) {
   return (
@@ -11,7 +12,7 @@ function UserForm(props) {
       ></img>
       <form
         className='userForm__form'
-        action={`popup-${props.name}-submit`}
+        action={`userForm-${props.name}-submit`}
         name={props.name}
         noValidate
       >
@@ -22,18 +23,19 @@ function UserForm(props) {
         <footer class='userForm__footer'>
           <button
             type='submit'
-            className={`popup__submit popup__submit_type_${props.name}`}
+            className={`userForm__submit userForm__submit_type_${props.name}`}
           >
             {props.buttonText}
           </button>
           <div className={"userForm__foonter-container"}>
             <p className='userForm__fotter-text'>
               {props.footerText}
-              <span
+              <Link
+                to={props.linkRoute}
                 className={`userForm__footer-link userForm__footer-link_type_${props.name}`}
               >
                 {props.footerSubText}
-              </span>
+              </Link>
             </p>
           </div>
         </footer>

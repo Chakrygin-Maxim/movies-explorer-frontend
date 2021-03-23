@@ -1,0 +1,32 @@
+.register__fieldset {
+  display: flex;
+  flex-direction: column;
+  border: 0;
+  padding: 0;
+  margin: 40px 0 65px;
+}
+
+.register__placeholder {
+  margin: 24px 0 0;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #8b8b8b;
+}
+
+.register__placeholder:first-of-type {
+  margin: 0;
+}
+
+.register__input {
+  margin: 5px 0 0;
+  display: flex;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #424242;
+  padding: 5px 0;
+}

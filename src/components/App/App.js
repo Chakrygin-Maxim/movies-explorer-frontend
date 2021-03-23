@@ -33,9 +33,6 @@ function App() {
           <NotFound />
         </Route>
       </Switch>
-      {/* <Navigation />
-      <Switch>
-        <Route path='/'> */}
 
       {/* </Route>
         <Route path='/movies'>
