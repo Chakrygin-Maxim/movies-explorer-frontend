@@ -95,3 +95,9 @@
   line-height: 18px;
   color: #fff;
 }
+
+.searchForm__underline {
+  margin: 70px 0 10px;
+  border-bottom: 1px solid #424242;
+  width: 1140px;
+}

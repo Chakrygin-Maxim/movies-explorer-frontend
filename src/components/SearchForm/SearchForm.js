@@ -14,6 +14,7 @@ function SearchForm(props) {
         <input type='checkbox' className='searchForm__checkbox' />
         <span className='searchForm__checkbox-text'>Короткометражки</span>
       </div>
+      <div className='searchForm__underline' />
     </div>
   );
 }
