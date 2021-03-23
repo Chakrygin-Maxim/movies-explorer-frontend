@@ -11,7 +11,6 @@ import Login from "../Login/Login";
 import Navigation from "../Navigation/Navigation";
 import Footer from "../Footer/Footer";
 import NotFound from "../NotFound/NotFound";
-// import HeaderLandingButtons from "../HeaderLandingButtons/HeaderLandingButtons";
 
 function App() {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -25,7 +24,10 @@ function App() {
           <Footer />
         </Route>
         <Route path='/signup'>
-          <Header loggedIn={loggedIn} />
+          <Register />
+        </Route>
+        <Route path='/signin'>
+          <Login />
         </Route>
         <Route path='*'>
           <NotFound />
