@@ -47,10 +47,9 @@ function Register(props) {
             maxLength='40'
             required
           />
-          <span
-            className='register__input-error'
-            id='email-input-password'
-          ></span>
+          <span className='register__input-error' id='email-input-password'>
+            Что-то пошло не так...
+          </span>
         </fieldset>
       </UserForm>
     </div>

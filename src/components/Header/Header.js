@@ -17,7 +17,7 @@ function Header(props) {
 
   return (
     <header className='header'>
-      <Link href='/' className='header__link'>
+      <Link to='/' className='header__link'>
         <img
           src={logo}
           alt='Основное лого сайта'

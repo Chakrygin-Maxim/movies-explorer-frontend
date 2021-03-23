@@ -28,26 +28,21 @@ function App() {
         <Route path='/profile'>
           <Header />
           <Profile />
-        </Route>{" "}
+        </Route>
+        <Route path='/movies'>
+          <Header />
+          <Movies />
+          <Footer />
+        </Route>
+        <Route path='/saved-movies'>
+          <Header />
+          <SavedMovies />
+          <Footer />
+        </Route>
         <Route path='*'>
           <NotFound />
         </Route>
       </Switch>
-
-      {/* </Route>
-        <Route path='/movies'>
-          <Movies />
-        </Route>
-        <Route path='/saved-movies'>
-          <SavedMovies />
-        </Route>
-        <Route path='/signup'>
-          <Register />
-        </Route>
-        <Route path='/signin'>
-          <Login />
-        </Route>
-      </Switch>*/}
     </>
   );
 }

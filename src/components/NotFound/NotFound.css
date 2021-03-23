@@ -29,4 +29,10 @@
   font-size: 17px;
   line-height: 17px;
   text-decoration: none;
+  transition: opacity 0.15s ease-in;
+}
+
+.notFound__link:hover {
+  opacity: 0.6;
+  cursor: pointer;
 }

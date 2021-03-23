@@ -14,7 +14,7 @@ function UserForm(props) {
           {props.title}
         </h2>
         {props.children}
-        <footer class='userForm__footer'>
+        <footer className='userForm__footer'>
           <button
             type='submit'
             className={`userForm__submit userForm__submit_type_${props.name}`}
