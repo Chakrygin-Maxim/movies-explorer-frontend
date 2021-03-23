@@ -1,15 +1,9 @@
 import "./UserForm.css";
-import logo from "../../images/header-logo.svg";
 import { Link } from "react-router-dom";
 
 function UserForm(props) {
   return (
     <section className='userForm'>
-      <img
-        src={logo}
-        alt='Основное лого сайта'
-        className='userForm__logo'
-      ></img>
       <form
         className='userForm__form'
         action={`userForm-${props.name}-submit`}

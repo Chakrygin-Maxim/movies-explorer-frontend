@@ -5,6 +5,10 @@ import logo from "../../images/header-logo.svg";
 
 function Header(props) {
   const { pathname } = useLocation();
+
+  // врменно меняем состав headera в зависимости от страницы
+  // в дальнейшем будем использовать стэйт из app
+  const loggedIn = pathname === "/" ? false : true;
   const pathTo = `${pathname === "/" ? "/signin" : "/profile"}`;
   const buttonData =
     pathname === "/"
@@ -21,7 +25,7 @@ function Header(props) {
         ></img>
       </Link>
       <div className='header__container'>
-        <Navigation loggedIn={props.loggedIn} />
+        <Navigation loggedIn={loggedIn} />
         <Link
           className={`header__link header__button-${buttonData.style}`}
           to={pathTo}
