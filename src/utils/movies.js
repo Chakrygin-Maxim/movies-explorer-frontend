@@ -15,71 +15,71 @@ import pic_14 from "../images/pic-14.jpg";
 import pic_15 from "../images/pic-15.jpg";
 import pic_16 from "../images/pic-16.jpg";
 
-export const muvies = [
+export const movies = [
   {
-    _id: 1,
+    _id: 0,
     image: pic_1,
     description: "33 слова о дизайне",
     duration: "1ч 42м",
   },
   {
-    _id: 2,
+    _id: 1,
     image: pic_2,
     description: "Киноальманах «100 лет дизайна»",
     duration: "1ч 42м",
   },
   {
-    _id: 3,
+    _id: 2,
     image: pic_3,
     description: "В погоне за Бенкси",
     duration: "1ч 42м",
   },
   {
-    _id: 4,
+    _id: 3,
     image: pic_4,
     description: "Баския: Взрыв реальности",
     duration: "1ч 42м",
   },
-  { _id: 5, image: pic_5, description: "Бег это свобода", duration: "1ч 42м" },
-  { _id: 6, image: pic_6, description: "Книготорговцы", duration: "1ч 42м" },
+  { _id: 4, image: pic_5, description: "Бег это свобода", duration: "1ч 42м" },
+  { _id: 5, image: pic_6, description: "Книготорговцы", duration: "1ч 42м" },
   {
-    _id: 7,
+    _id: 6,
     image: pic_7,
     description: "Когда я думаю о Германии ночью",
     duration: "1ч 42м",
   },
   {
-    _id: 8,
+    _id: 7,
     image: pic_8,
     description: "Gimme Danger: История Игги и The Stooges",
     duration: "1ч 42м",
   },
   {
-    _id: 9,
+    _id: 8,
     image: pic_9,
     description: "Дженис: Маленькая девочка грустит",
     duration: "1ч 42м",
   },
   {
-    _id: 10,
+    _id: 9,
     image: pic_10,
     description: "Соберись перед прыжком",
     duration: "1ч 42м",
   },
   {
-    _id: 11,
+    _id: 10,
     image: pic_11,
     description: "Пи Джей Харви: A dog called money",
     duration: "1ч 42м",
   },
   {
-    _id: 12,
+    _id: 11,
     image: pic_12,
     description: "По волнам: Искусство звука в кино",
     duration: "1ч 42м",
   },
-  { _id: 13, image: pic_13, description: "Рудбой", duration: "1ч 42м" },
-  { _id: 14, image: pic_14, description: "Скейт — кухня", duration: "1ч 42м" },
-  { _id: 15, image: pic_15, description: "Война искусств", duration: "1ч 42м" },
-  { _id: 16, image: pic_16, description: "Зона", duration: "1ч 42м" },
+  { _id: 12, image: pic_13, description: "Рудбой", duration: "1ч 42м" },
+  { _id: 13, image: pic_14, description: "Скейт — кухня", duration: "1ч 42м" },
+  { _id: 14, image: pic_15, description: "Война искусств", duration: "1ч 42м" },
+  { _id: 15, image: pic_16, description: "Зона", duration: "1ч 42м" },
 ];

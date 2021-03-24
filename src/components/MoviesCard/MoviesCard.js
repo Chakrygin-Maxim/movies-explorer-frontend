@@ -16,7 +16,7 @@ function MoviesCard(props) {
         <button
           className={`moviesCard__button-like ${
             isLike && "moviesCard__button-like_status_liked"
-          }`}
+          } ${props.savedMovies && "moviesCard__button-delete"}`}
           onClick={handleOnFilmLike}
         ></button>
       </div>

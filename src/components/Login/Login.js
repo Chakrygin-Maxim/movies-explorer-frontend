@@ -1,12 +1,14 @@
 import "./Login.css";
 import logo from "../../images/header-logo.svg";
+import { Link } from "react-router-dom";
 import UserForm from "../UserForm/UserForm";
 
 function Login(props) {
   return (
     <div className='login'>
-      <img src={logo} alt='Основное лого сайта' className='userForm__logo' />
-
+      <Link to={"/"}>
+        <img src={logo} alt='Основное лого сайта' className='userForm__logo' />
+      </Link>
       <UserForm
         name={"signin"}
         title={"Рады видеть!"}

@@ -1,11 +1,14 @@
 import "./Register.css";
+import { Link } from "react-router-dom";
 import logo from "../../images/header-logo.svg";
 import UserForm from "../UserForm/UserForm";
 
 function Register(props) {
   return (
     <div className='register'>
-      <img src={logo} alt='Основное лого сайта' className='userForm__logo' />
+      <Link to={"/"}>
+        <img src={logo} alt='Основное лого сайта' className='userForm__logo' />
+      </Link>
       <UserForm
         name={"signup"}
         title={"Добро пожаловать!"}
