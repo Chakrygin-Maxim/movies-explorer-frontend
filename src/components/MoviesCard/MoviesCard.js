@@ -10,9 +10,9 @@ function MoviesCard(props) {
 
   return (
     <div className='moviesCardList__card-item'>
-      <img className='moviesCard__pic' src={props.photo} alt='Обложка фильма' />
+      <img className='moviesCard__pic' src={props.image} alt='Обложка фильма' />
       <div className='moviesCard__about'>
-        <p className='moviesCard__name'>{props.name}</p>
+        <p className='moviesCard__name'>{props.description}</p>
         <button
           className={`moviesCard__button-like ${
             isLike && "moviesCard__button-like_status_liked"
@@ -20,7 +20,7 @@ function MoviesCard(props) {
           onClick={handleOnFilmLike}
         ></button>
       </div>
-      <span className='moviesCard__direction'>{props.direction}</span>
+      <span className='moviesCard__direction'>{props.duration}</span>
     </div>
   );
 }
