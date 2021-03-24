@@ -19,64 +19,81 @@ import pic_16 from "../../images/pic-16.jpg";
 
 function MoviesCardList(props) {
   return (
-    <section className='moviesCardList'>
-      <MoviesCard
-        photo={pic_1}
-        name={"33 слова о дизайне"}
-        direction={"1ч 42м"}
-      />
-      <MoviesCard
-        photo={pic_2}
-        name={"Киноальманах «100 лет дизайна»"}
-        direction={"1ч 42м"}
-      />
-      <MoviesCard
-        photo={pic_3}
-        name={"В погоне за Бенкси"}
-        direction={"1ч 42м"}
-      />
-      <MoviesCard
-        photo={pic_4}
-        name={"Баския: Взрыв реальности"}
-        direction={"1ч 42м"}
-      />
-      <MoviesCard photo={pic_5} name={"Бег это свобода"} direction={"1ч 42м"} />
-      <MoviesCard photo={pic_6} name={"Книготорговцы"} direction={"1ч 42м"} />
-      <MoviesCard
-        photo={pic_7}
-        name={"Когда я думаю о Германии ночью"}
-        direction={"1ч 42м"}
-      />
-      <MoviesCard
-        photo={pic_8}
-        name={"Gimme Danger: История Игги и The Stooges"}
-        direction={"1ч 42м"}
-      />
-      <MoviesCard
-        photo={pic_9}
-        name={"Дженис: Маленькая девочка грустит"}
-        direction={"1ч 42м"}
-      />
-      <MoviesCard
-        photo={pic_10}
-        name={"Соберись перед прыжком"}
-        direction={"1ч 42м"}
-      />
-      <MoviesCard
-        photo={pic_11}
-        name={"Пи Джей Харви: A dog called money"}
-        direction={"1ч 42м"}
-      />
-      <MoviesCard
-        photo={pic_12}
-        name={"По волнам: Искусство звука в кино"}
-        direction={"1ч 42м"}
-      />
-      <MoviesCard photo={pic_13} name={"Рудбой"} direction={"1ч 42м"} />
-      <MoviesCard photo={pic_14} name={"Скейт — кухня"} direction={"1ч 42м"} />
-      <MoviesCard photo={pic_15} name={"Война искусств"} direction={"1ч 42м"} />
-      <MoviesCard photo={pic_16} name={"Зона"} direction={"1ч 42м"} />
-    </section>
+    <div className='moviesCardList'>
+      <section className='moviesCardList-list'>
+        <MoviesCard
+          photo={pic_1}
+          name={"33 слова о дизайне"}
+          direction={"1ч 42м"}
+        />
+        <MoviesCard
+          photo={pic_2}
+          name={"Киноальманах «100 лет дизайна»"}
+          direction={"1ч 42м"}
+        />
+        <MoviesCard
+          photo={pic_3}
+          name={"В погоне за Бенкси"}
+          direction={"1ч 42м"}
+        />
+        <MoviesCard
+          photo={pic_4}
+          name={"Баския: Взрыв реальности"}
+          direction={"1ч 42м"}
+        />
+        <MoviesCard
+          photo={pic_5}
+          name={"Бег это свобода"}
+          direction={"1ч 42м"}
+        />
+        <MoviesCard photo={pic_6} name={"Книготорговцы"} direction={"1ч 42м"} />
+        <MoviesCard
+          photo={pic_7}
+          name={"Когда я думаю о Германии ночью"}
+          direction={"1ч 42м"}
+        />
+        <MoviesCard
+          photo={pic_8}
+          name={"Gimme Danger: История Игги и The Stooges"}
+          direction={"1ч 42м"}
+        />
+        <MoviesCard
+          photo={pic_9}
+          name={"Дженис: Маленькая девочка грустит"}
+          direction={"1ч 42м"}
+        />
+        <MoviesCard
+          photo={pic_10}
+          name={"Соберись перед прыжком"}
+          direction={"1ч 42м"}
+        />
+        <MoviesCard
+          photo={pic_11}
+          name={"Пи Джей Харви: A dog called money"}
+          direction={"1ч 42м"}
+        />
+        <MoviesCard
+          photo={pic_12}
+          name={"По волнам: Искусство звука в кино"}
+          direction={"1ч 42м"}
+        />
+        <MoviesCard photo={pic_13} name={"Рудбой"} direction={"1ч 42м"} />
+        <MoviesCard
+          photo={pic_14}
+          name={"Скейт — кухня"}
+          direction={"1ч 42м"}
+        />
+        <MoviesCard
+          photo={pic_15}
+          name={"Война искусств"}
+          direction={"1ч 42м"}
+        />
+        <MoviesCard photo={pic_16} name={"Зона"} direction={"1ч 42м"} />
+      </section>
+      <div className='moviesCardList__footer'>
+        <button className='moviesCardList__more'>Ещё</button>
+      </div>
+    </div>
   );
 }
 

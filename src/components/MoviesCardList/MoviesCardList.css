@@ -1,8 +1,36 @@
 .moviesCardList {
   max-width: 1140px;
   margin: 70px auto 0;
+}
+
+.moviesCardList-list {
   display: grid;
   grid-template-columns: repeat(4, 270px);
   grid-column-gap: 20px;
   grid-row-gap: 38px;
+}
+
+.moviesCardList__footer {
+  min-height: 166px;
+  display: flex;
+  justify-content: center;
+}
+
+.moviesCardList__more {
+  margin: 50px 0 0;
+  height: 36px;
+  min-width: 320px;
+  background-color: #313131;
+  border: 0;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  outline: none;
+  transition: opacity 0.15s ease-in;
+}
+
+.moviesCardList__more:hover {
+  cursor: pointer;
+  opacity: 0.6;
 }

@@ -11,7 +11,6 @@
   padding: 0;
   border: 0;
   border-radius: 36px;
-  transition: opacity 0.15s ease-in;
   outline: none;
   transition: src 2s;
   background-image: url("../../images/button-like.svg");
