@@ -7,10 +7,6 @@
 }
 
 .profile__fieldset {
-  display: flex;
-  flex-direction: column;
-  border: 0;
-  padding: 0;
   margin: 40px 0 0;
 }
 
@@ -27,16 +23,5 @@
 }
 
 .profile__input {
-  margin: 5px 0 0;
-  display: flex;
-  color: #ffffff;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid #424242;
-  padding: 5px 0;
   text-align: right;
-  outline: none;
 }

@@ -17,40 +17,40 @@ function Register(props) {
         footerSubText={"Войти"}
         linkRoute={"/signin"}
       >
-        <fieldset className='register__fieldset'>
+        <fieldset className='userForm__fieldset register__fieldset'>
           <span className='register__placeholder'>Имя</span>
           <input
             name='name'
             type='text'
-            className='register__input register__input_field_name'
+            className='userForm__input'
             id='name-input'
             minLength='2'
             maxLength='40'
             required
           />
-          <span className='register__input-error' id='name-input-error'></span>
+          <span className='userForm__input-error' id='name-input-error'></span>
 
           <span className='register__placeholder'>E-mail</span>
           <input
             name='email'
-            className='register__input'
+            className='userForm__input'
             type='email'
             minLength='2'
             maxLength='40'
             required
           />
-          <span className='register__input-error' id='email-input-error'></span>
+          <span className='userForm__input-error' id='email-input-error'></span>
 
           <span className='register__placeholder'>Пароль</span>
           <input
             name='password'
-            className='register__input'
+            className='userForm__input'
             type='password'
             minLength='8'
             maxLength='40'
             required
           />
-          <span className='register__input-error' id='email-input-password'>
+          <span className='userForm__input-error' id='email-input-password'>
             Что-то пошло не так...
           </span>
         </fieldset>

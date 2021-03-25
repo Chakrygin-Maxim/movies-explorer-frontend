@@ -28,6 +28,7 @@
   line-height: 14px;
   outline: none;
   transition: opacity 0.15s ease-in;
+  border-radius: 6px;
 }
 
 .moviesCardList__more:hover {
