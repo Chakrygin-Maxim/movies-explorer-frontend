@@ -18,7 +18,7 @@ function Register(props) {
         linkRoute={"/signin"}
       >
         <fieldset className='userForm__fieldset register__fieldset'>
-          <span className='register__placeholder'>Имя</span>
+          <span className='userForm__placeholder'>Имя</span>
           <input
             name='name'
             type='text'
@@ -29,8 +29,7 @@ function Register(props) {
             required
           />
           <span className='userForm__input-error' id='name-input-error'></span>
-
-          <span className='register__placeholder'>E-mail</span>
+          <span className='userForm__placeholder'>E-mail</span>
           <input
             name='email'
             className='userForm__input'
@@ -40,8 +39,7 @@ function Register(props) {
             required
           />
           <span className='userForm__input-error' id='email-input-error'></span>
-
-          <span className='register__placeholder'>Пароль</span>
+          <span className='userForm__placeholder'>Пароль</span>
           <input
             name='password'
             className='userForm__input'
@@ -50,7 +48,7 @@ function Register(props) {
             maxLength='40'
             required
           />
-          <span className='userForm__input-error' id='email-input-password'>
+          <span className='userForm__input-error' id='password-input-error'>
             Что-то пошло не так...
           </span>
         </fieldset>

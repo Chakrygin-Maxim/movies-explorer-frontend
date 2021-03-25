@@ -18,7 +18,7 @@ function Login(props) {
         linkRoute={"/signup"}
       >
         <fieldset className='userForm__fieldset login__fieldset'>
-          <span className='login__placeholder'>E-mail</span>
+          <span className='userForm__placeholder'>E-mail</span>
           <input
             name='email'
             className='userForm__input'
@@ -28,8 +28,7 @@ function Login(props) {
             required
           />
           <span className='userForm__input-error' id='email-input-error'></span>
-
-          <span className='login__placeholder'>Пароль</span>
+          <span className='userForm__placeholder'>Пароль</span>
           <input
             name='password'
             className='userForm__input'
@@ -40,7 +39,7 @@ function Login(props) {
           />
           <span
             className='userForm__input-error'
-            id='email-input-password'
+            id='password-input-error'
           ></span>
         </fieldset>
       </UserForm>

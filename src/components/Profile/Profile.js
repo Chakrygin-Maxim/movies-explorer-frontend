@@ -12,7 +12,7 @@ function Profile(props) {
         linkRoute={"/signup"}
       >
         <fieldset className='userForm__fieldset profile__fieldset'>
-          <span className='profile__placeholder'>Имя</span>
+          <span className='userForm__placeholder'>Имя</span>
           <input
             name='name'
             type='text'
@@ -23,8 +23,7 @@ function Profile(props) {
             required
           />
           <span className='userForm__input-error' id='name-input-error'></span>
-
-          <span className='profile__placeholder'>E-mail</span>
+          <span className='userForm__placeholder'>E-mail</span>
           <input
             name='email'
             className='userForm__input profile__input'

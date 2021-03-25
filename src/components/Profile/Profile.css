@@ -10,18 +10,6 @@
   margin: 40px 0 0;
 }
 
-.profile__placeholder {
-  margin: 24px 0 0;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;
-  color: #8b8b8b;
-}
-
-.profile__placeholder:first-of-type {
-  margin: 0;
-}
-
 .profile__input {
   text-align: right;
 }
