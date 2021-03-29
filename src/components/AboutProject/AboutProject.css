@@ -53,7 +53,7 @@
   margin-top: 110px;
   display: grid;
   grid-row-gap: 14px;
-  grid-template-columns: 228px 912px;
+  grid-template-columns: 20% 80%;
   justify-content: center;
   padding-bottom: 110px;
 }
@@ -88,4 +88,29 @@
   line-height: 17px;
   align-self: center;
   color: #8b8b8b;
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutProject {
+    margin: 0 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutProject {
+    margin: 0 50px;
+    padding-top: 90px;
+  }
+  .aboutProject__container {
+    grid-row-gap: 22px;
+    grid-column-gap: 30px;
+  }
+  .aboutProject__text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .aboutProject__progressbar {
+    margin-top: 103px;
+    padding-bottom: 90px;
+  }
 }

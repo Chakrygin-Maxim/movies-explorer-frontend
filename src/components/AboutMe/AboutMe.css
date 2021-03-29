@@ -27,12 +27,12 @@
 .aboutMe__container {
   display: flex;
   justify-content: space-between;
-  margin: 94px 0 100px;
+  margin: 90px 0 100px;
   max-width: 1140px;
+  grid-column-gap: 10px;
 }
 
 .aboutMe__leftColumn {
-  max-width: 600px;
   min-width: 327px;
   display: flex;
   justify-content: space-between;
@@ -78,6 +78,7 @@
   font-size: 14px;
   line-height: 16.94px;
   transition: opacity 0.15s ease-in;
+  font-weight: 500;
 }
 
 .aboutMe__social-item:last-of-type {
@@ -92,4 +93,40 @@
 .aboutMe__social-link {
   text-decoration: none;
   color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutMe {
+    padding: 110px 70px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutMe {
+    padding: 90px 50px 0;
+  }
+  .aboutMe__title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .aboutMe__avatar {
+    width: 255px;
+    height: 307px;
+  }
+  .aboutMe__subtitle {
+    margin: 16px 0 0;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .aboutMe__text {
+    margin: 20px 0 0;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .aboutMe__leftColumn {
+    min-width: 307px;
+  }
+  .aboutMe__container {
+    margin: 94px 0 90px;
+  }
 }

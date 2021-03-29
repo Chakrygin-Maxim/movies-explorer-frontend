@@ -1,6 +1,7 @@
 .navTab {
   display: flex;
   text-decoration: none;
+  padding: 0;
 }
 
 .navtab__link {

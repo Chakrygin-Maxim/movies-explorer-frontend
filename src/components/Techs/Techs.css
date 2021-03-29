@@ -72,4 +72,43 @@
   min-height: 60px;
   background-color: #303030;
   border-radius: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media screen and (max-width: 1200px) {
+  .techs {
+    padding: 110px 70px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .techs {
+    padding: 90px 50px 0;
+  }
+
+  .techs__container {
+    display: flex;
+    flex-direction: column;
+    margin: 104px auto 0;
+  }
+
+  .techs__subtitle {
+    margin: 22px 0 0;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .techs__list {
+    margin: 83px 0 90px;
+    grid-template-columns: repeat(7, 84px);
+  }
+
+  .techs__list-item {
+    min-height: 57px;
+    min-width: 84px;
+    font-size: 12px;
+    line-height: 14px;
+  }
 }

@@ -26,3 +26,19 @@
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 1200px) {
+  .promo {
+    margin: 20px 40px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .promo {
+    margin: 0 20px;
+  }
+  .promo__text {
+    font-size: 40px;
+    line-height: 52px;
+  }
+}

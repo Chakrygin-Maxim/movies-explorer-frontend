@@ -44,3 +44,12 @@
   text-decoration: none;
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .portfolio__list-item {
+    font-size: 28px;
+  }
+  .portfolio {
+    margin-bottom: 90px;
+  }
+}
